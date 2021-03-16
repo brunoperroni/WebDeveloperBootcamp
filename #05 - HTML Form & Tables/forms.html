@@ -99,5 +99,39 @@
       </p>
       <button>Submit</button>
     </form>
+
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+      <label for="first">Enter first name</label>
+      <input
+        type="text"
+        name="first"
+        id="first"
+        placeholder="Enter first name"
+        required
+      />
+      <p>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="username"
+          minlength="5"
+          maxlength="20"
+        />
+      </p>
+      <p>
+        <label for="email">Enter a Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="insert email address"
+          required
+        />
+      </p>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
