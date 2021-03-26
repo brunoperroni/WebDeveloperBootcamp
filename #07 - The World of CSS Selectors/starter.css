@@ -17,8 +17,10 @@ h2 {
   color: #f1faee;
 }
 
-span {
+span a {
   color: #457b9d;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .tag {
@@ -47,10 +49,28 @@ input[type="password"] {
   color: greenyellow;
 }
 
+/*
 section[class="post"] {
   background-color: lightgrey;
 }
+*/
 
 a[href*="google"] {
   color: magenta;
+}
+
+.post button:hover {
+  background-color: #e63946;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.post button:active {
+  background-color: #02c39a;
+}
+
+.post:nth-of-type(3n) {
+  background-color: #dfe8dc;
 }
